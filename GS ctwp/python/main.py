@@ -5,8 +5,8 @@ from typing import Dict, List, Tuple, Optional
 import requests
 from requests.exceptions import RequestException
 
-CHANNEL_ID = "SEU_CHANNEL_ID_AQUI"
-THINGSPEAK_URL = f"https://api.thingspeak.com/channels/{CHANNEL_ID}/feeds.json?results=20"
+CHANNEL_ID = "3586321"
+THINGSPEAK_URL = f"https://api.thingspeak.com/channels/{3586321}/feeds.json?results=20"
 BACKUP_FILE = "backup.json"
 HISTORICO_FILE = "historico.json"
 RELATORIO_CSV = "relatorio.csv"
